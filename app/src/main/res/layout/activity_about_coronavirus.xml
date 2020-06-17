@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:padding="10dp"
+    tools:context=".AboutCoronavirus">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <!--Overview-->
+
+            <RelativeLayout
+                android:id="@+id/about_corona_overview_relative_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:id="@+id/about_corona_overview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="bold|normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="Overview"
+                    android:textColor="@color/about_corona_text" />
+
+                <ImageView
+                    android:id="@+id/about_corona_overview_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_centerInParent="true"
+                    android:layout_below="@id/about_corona_overview"
+                    android:background="@drawable/coronavirus"/>
+
+                <TextView
+                    android:id="@+id/about_corona_text_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="COVID 19 Overview"
+                    android:layout_below="@id/about_corona_overview_image"
+                    android:textColor="@color/about_corona_text" />
+
+                <TextView
+                    android:id="@+id/about_corona_text_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="COVID 19 Overview"
+                    android:layout_below="@id/about_corona_text_1"
+                    android:textColor="@color/about_corona_text" />
+
+                <TextView
+                    android:id="@+id/about_corona_text_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="COVID 19 Overview"
+                    android:layout_below="@id/about_corona_text_2"
+                    android:textColor="@color/about_corona_text" />
+
+                <TextView
+                    android:id="@+id/about_corona_text_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="COVID 19 Overview"
+                    android:layout_below="@id/about_corona_text_3"
+                    android:textColor="@color/about_corona_text" />
+
+                <TextView
+                    android:id="@+id/about_corona_text_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="COVID 19 Overview"
+                    android:layout_below="@id/about_corona_text_4"
+                    android:textColor="@color/about_corona_text" />
+            </RelativeLayout>
+
+            <!--Prevention-->
+
+            <RelativeLayout
+                android:id="@+id/about_corona_prevention_relative_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/about_corona_overview_relative_layout">
+
+                <TextView
+                    android:id="@+id/about_corona_prevention"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="bold|normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="Prevention"
+                    android:textColor="@color/about_corona_text" />
+
+                <ImageView
+                    android:id="@+id/about_corona_prevention_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_centerInParent="true"
+                    android:layout_below="@id/about_corona_prevention"
+                    android:background="@drawable/prevention"/>
+
+                <TextView
+                    android:id="@+id/about_corona_prevention_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="COVID 19 Prevention"
+                    android:layout_below="@id/about_corona_prevention_image"
+                    android:textColor="@color/about_corona_text" />
+
+                <TextView
+                    android:id="@+id/about_corona_prevention_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="COVID 19 Prevention"
+                    android:layout_below="@id/about_corona_prevention_1"
+                    android:textColor="@color/about_corona_text" />
+            </RelativeLayout>
+
+            <!--Symptoms-->
+
+            <RelativeLayout
+                android:id="@+id/about_corona_symptoms_relative_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/about_corona_overview_relative_layout">
+
+                <TextView
+                    android:id="@+id/about_corona_symptoms"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="bold|normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="Symptoms"
+                    android:textColor="@color/about_corona_text" />
+
+                <ImageView
+                    android:id="@+id/about_corona_symptoms_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_centerInParent="true"
+                    android:layout_below="@id/about_corona_symptoms"
+                    android:background="@drawable/symptoms"/>
+
+                <TextView
+                    android:id="@+id/about_corona_symptoms_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="COVID 19 Symptoms"
+                    android:layout_below="@id/about_corona_symptoms_image"
+                    android:textColor="@color/about_corona_text" />
+
+                <TextView
+                    android:id="@+id/about_corona_symptoms_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="COVID 19 Symptoms"
+                    android:layout_below="@id/about_corona_symptoms_1"
+                    android:textColor="@color/about_corona_text" />
+
+                <TextView
+                    android:id="@+id/about_corona_symptoms_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="COVID 19 Symptoms"
+                    android:layout_below="@id/about_corona_symptoms_2"
+                    android:textColor="@color/about_corona_text" />
+
+                <TextView
+                    android:id="@+id/about_corona_symptoms_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="COVID 19 Symptoms"
+                    android:layout_below="@id/about_corona_symptoms_3"
+                    android:textColor="@color/about_corona_text" />
+
+                <TextView
+                    android:id="@+id/about_corona_symptoms_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="COVID 19 Symptoms"
+                    android:layout_below="@id/about_corona_symptoms_4"
+                    android:textColor="@color/about_corona_text" />
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/previous_button"
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/previous"
+                    android:gravity="center"
+                    android:onClick="aboutCoronaPreviousBtnClick" />
+
+                <!--<Button
+                    android:id="@+id/next_button"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/next"
+                    android:gravity="center"
+                    android:layout_alignParentRight="true" />-->
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

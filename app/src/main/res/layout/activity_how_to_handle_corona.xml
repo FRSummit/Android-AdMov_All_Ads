@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:padding="10dp"
+    tools:context=".HowToHandleCorona">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <!--Dealing with Coronavirus-->
+
+            <RelativeLayout
+                android:id="@+id/dealing_with_coronavirus_relative_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <ImageView
+                    android:id="@+id/deal_with_corona_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/deal_with_corona"/>
+
+                <TextView
+                    android:id="@+id/dealing_with_coronavirus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="bold|normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="Dealing with Coronavirus"
+                    android:layout_below="@id/deal_with_corona_image"
+                    android:textColor="@color/about_corona_text" />
+
+                <TextView
+                    android:id="@+id/dealing_with_coronavirus_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="COVID 19 Overview"
+                    android:layout_below="@id/dealing_with_coronavirus"
+                    android:textColor="@color/about_corona_text" />
+            </RelativeLayout>
+
+            <!--How to Deal with Isolation-->
+
+            <RelativeLayout
+                android:id="@+id/how_to_deal_with_isolation_relative_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:id="@+id/how_to_deal_with_isolation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="bold|normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="Isolation"
+                    android:textColor="@color/about_corona_text" />
+
+                <TextView
+                    android:id="@+id/how_to_deal_with_isolation_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="COVID 19 Overview"
+                    android:layout_below="@id/how_to_deal_with_isolation"
+                    android:textColor="@color/about_corona_text" />
+            </RelativeLayout>
+
+            <!--For Students-->
+
+            <RelativeLayout
+                android:id="@+id/for_students_relative_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:id="@+id/for_students"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="bold|normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="Students"
+                    android:textColor="@color/about_corona_text" />
+
+                <TextView
+                    android:id="@+id/for_students_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="COVID 19 Overview"
+                    android:layout_below="@id/for_students"
+                    android:textColor="@color/about_corona_text" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/deal_with_corona_image_2"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="12dp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true"
+                android:layout_below="@id/for_students_text"
+                android:background="@drawable/deal_with_corona_virus"/>
+
+            <!--For Parents-->
+
+            <RelativeLayout
+                android:id="@+id/for_parents_relative_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:id="@+id/for_parents"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="bold|normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="Students"
+                    android:textColor="@color/about_corona_text" />
+
+                <TextView
+                    android:id="@+id/for_parents_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="COVID 19 Overview"
+                    android:layout_below="@id/for_parents"
+                    android:textColor="@color/about_corona_text" />
+            </RelativeLayout>
+
+            <!--For Financial Stress-->
+
+            <RelativeLayout
+                android:id="@+id/for_financial_stress_relative_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:id="@+id/for_financial_stress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="bold|normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="Students"
+                    android:textColor="@color/about_corona_text" />
+
+                <TextView
+                    android:id="@+id/for_financial_stress_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="COVID 19 Overview"
+                    android:layout_below="@id/for_financial_stress"
+                    android:textColor="@color/about_corona_text" />
+            </RelativeLayout>
+
+            <!--For Healthcare Workers-->
+
+            <RelativeLayout
+                android:id="@+id/for_healthcare_workers_relative_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:id="@+id/for_healthcare_workers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="bold|normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="Students"
+                    android:textColor="@color/about_corona_text" />
+
+                <TextView
+                    android:id="@+id/for_healthcare_workers_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="normal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="left"
+                    android:text="COVID 19 Overview"
+                    android:layout_below="@id/for_healthcare_workers"
+                    android:textColor="@color/about_corona_text" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/previous_button"
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/previous"
+                    android:gravity="center"
+                    android:onClick="handleCoronaPreviousBtnClick" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

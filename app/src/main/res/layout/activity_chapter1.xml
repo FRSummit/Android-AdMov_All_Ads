@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:padding="10dp"
+    tools:context=".Chapter1">
+
+    <TextView
+        android:id="@+id/index_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold|normal"
+        android:textColor="@color/chapter1_index_text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:text="COVID 19" />
+
+    <ImageView
+        android:id="@+id/listView_index_image"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="12dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/index_text"
+        android:background="@drawable/coronavirus_map"/>
+
+    <ListView
+        android:id="@+id/listView_index"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/chapter1_style"
+        android:layout_below="@id/listView_index_image" />
+</RelativeLayout>
