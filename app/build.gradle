@@ -5,7 +5,7 @@ android {
     buildToolsVersion "29.0.2"
 
     defaultConfig {
-        applicationId "com.example.coronavirus_howlongdoesittaketorecover"
+        applicationId "com.frsummit.coronavirus_howlongdoesittaketorecover"
         minSdkVersion 23
         targetSdkVersion 29
         versionCode 1

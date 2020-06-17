@@ -1,4 +1,4 @@
-package com.example.coronavirus_howlongdoesittaketorecover;
+package com.frsummit.coronavirus_howlongdoesittaketorecover;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.coronavirus_howlongdoesittaketorecover", appContext.getPackageName());
+        assertEquals("com.frsummit.coronavirus_howlongdoesittaketorecover", appContext.getPackageName());
     }
 }

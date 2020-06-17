@@ -1,4 +1,4 @@
-package com.example.coronavirus_howlongdoesittaketorecover;
+package com.frsummit.coronavirus_howlongdoesittaketorecover;
 
 import android.app.Activity;
 import android.content.Intent;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.coronavirus_howlongdoesittaketorecover">
+    package="com.frsummit.coronavirus_howlongdoesittaketorecover">
 
     <application
         android:allowBackup="true"
@@ -9,12 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Recover"></activity>
-        <activity android:name=".RecoverTime" />
-        <activity android:name=".HowToHandleCorona" />
-        <activity android:name=".AboutCoronavirus" />
-        <activity android:name=".Chapter1" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.frsummit.coronavirus_howlongdoesittaketorecover.Recover"></activity>
+        <activity android:name="com.frsummit.coronavirus_howlongdoesittaketorecover.RecoverTime" />
+        <activity android:name="com.frsummit.coronavirus_howlongdoesittaketorecover.HowToHandleCorona" />
+        <activity android:name="com.frsummit.coronavirus_howlongdoesittaketorecover.AboutCoronavirus" />
+        <activity android:name="com.frsummit.coronavirus_howlongdoesittaketorecover.Chapter1" />
+        <activity android:name="com.frsummit.coronavirus_howlongdoesittaketorecover.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
