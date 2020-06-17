@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
             }
         };
         Timer timer = new Timer();
-        timer.schedule(task, 1000);
+        timer.schedule(task, 5000);
     }
 
     private void finishscreen() {
