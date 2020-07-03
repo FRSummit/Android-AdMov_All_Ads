@@ -4,50 +4,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background1"
-    android:padding="10dp"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/title_main"
-        android:layout_width="match_parent"
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="12dp"
-        android:textStyle="bold|normal"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textAlignment="center"
-        android:gravity="center"
-        android:text="COVID 19" />
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/world_map"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:src="@drawable/world_map"
-        android:layout_below="@id/title_main"
-        android:layout_marginTop="20dp"/>
-
-    <ImageView
-        android:id="@+id/covid_virus"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:src="@drawable/covid_virus"
-        android:layout_below="@id/title_main"
-        android:layout_marginTop="100dp"/>
-
-    <TextView
-        android:id="@+id/bottom_text"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/interstitialAd"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:textStyle="bold|normal"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textAlignment="center"
-        android:gravity="center"
-        android:text="How To Recover"
-        android:layout_below="@id/world_map" />
+        android:text="Interstitial Ad"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:onClick="startInterstitialAdActivity" />
+
+    <Button
+        android:id="@+id/nativeAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Native Ad"
+        android:layout_below="@+id/interstitialAd"
+        android:layout_marginTop="20dp"
+        android:onClick="startNativeAdActivity" />
+
+    <Button
+        android:id="@+id/rewardedAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rewarded Ad"
+        android:layout_below="@+id/nativeAd"
+        android:layout_marginTop="20dp"
+        android:onClick="startRewardedAdActivity" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="FULL_BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+
+
 </RelativeLayout>

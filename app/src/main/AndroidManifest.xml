@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.frsummit.coronavirus_howlongdoesittaketorecover">
+    package="com.example.admobdemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -9,12 +12,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.frsummit.coronavirus_howlongdoesittaketorecover.Recover"></activity>
-        <activity android:name="com.frsummit.coronavirus_howlongdoesittaketorecover.RecoverTime" />
-        <activity android:name="com.frsummit.coronavirus_howlongdoesittaketorecover.HowToHandleCorona" />
-        <activity android:name="com.frsummit.coronavirus_howlongdoesittaketorecover.AboutCoronavirus" />
-        <activity android:name="com.frsummit.coronavirus_howlongdoesittaketorecover.Chapter1" />
-        <activity android:name="com.frsummit.coronavirus_howlongdoesittaketorecover.MainActivity">
+        <activity android:name=".RewardedAdLoad"></activity>
+        <activity android:name=".NativeAdLoad" />
+        <activity android:name=".InterstitialAdLoad" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4861848901455235~7992147502" />
+
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RewardedAdLoad">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rewarded Ad"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <Button
+        android:id="@+id/rewardedLoadBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="rewardedLoadBtnClick"
+        android:text="Load Rewarded Ad"
+        android:layout_below="@id/textView3"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <Button
+        android:id="@+id/rewardedShowBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="rewardedShowBtnClick"
+        android:text="Show Rewarded Ad"
+        android:layout_below="@id/rewardedLoadBtn"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <Button
+        android:id="@+id/banner_reward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToBanner"
+        android:text="Go To Banner"
+        android:layout_below="@id/rewardedShowBtn"
+        android:layout_marginTop="60dp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <Button
+        android:id="@+id/inter_reward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToInter"
+        android:text="Go To Interstitial"
+        android:layout_below="@id/banner_reward"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <Button
+        android:id="@+id/native_reward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToNative"
+        android:text="Go To Native"
+        android:layout_below="@id/inter_reward"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="92dp" />
+</RelativeLayout>

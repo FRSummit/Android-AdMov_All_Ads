@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NativeAdLoad">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Native Ad"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <Button
+        android:id="@+id/loadAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="loadAdBtnClick"
+        android:text="Load Ad"
+        android:layout_below="@+id/textView2"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <Button
+        android:id="@+id/showAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loadAd"
+        android:layout_marginTop="42dp"
+        android:onClick="showAdBtnClick"
+        android:text="Show Ad"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <Button
+        android:id="@+id/bannerAd_Native"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showAd"
+        android:layout_marginTop="110dp"
+        android:onClick="BannerClickFromNative"
+        android:text="Go To BANNER Ad"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <Button
+        android:id="@+id/int_Native"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bannerAd_Native"
+        android:layout_marginTop="33dp"
+        android:onClick="interstitialClickFromNative"
+        android:text="Go To Interstitial Ad"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="519dp" />
+
+    <Button
+        android:id="@+id/rewarded_Native"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/int_Native"
+        android:layout_marginTop="34dp"
+        android:onClick="rewardedClickFromNative"
+        android:text="Go To Rewarded Ad"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="605dp" />
+
+</RelativeLayout>
